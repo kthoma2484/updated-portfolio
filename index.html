@@ -6,11 +6,24 @@
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/styles.css" />
 </head>
 <body>
-    <script type="text/x-handlebars-template">
-    
-    
+
+    <div>
+        <h1>Portfolio</h1>
+        <div id="project-container"></div>
+    </div>
+
+
+
+    <script id="projectTemplate" type="text/x-handlebars-template">
+        {{#each myProjects}}
+            <div class="labels">
+                <img class="img-contain" src="{{photo}}" alt="altname">
+                <h3 class="labels-div"><a href="{{link}}">{{name}}</a></h3>
+            </div>
+        {{/each}}
     </script>
-    
+
+    <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="assets/javascript/handlebars-v4.0.11.js"></script>
     <script src="assets/javascript/main.js"></script>
 </body>
