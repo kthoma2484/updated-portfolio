@@ -1,16 +1,33 @@
-
-
-
-
-.img-contain {
-    width: 250px;
-    height: 175px;
+.row {
+    display: flex;
     margin: 20px;
 }
 
+#title {
+    padding: 0 20px;
+}
+
+#project-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    overflow: scroll;
+    max-width: 1000px;
+    max-height: 800px;
+    padding: 0;
+}
+
+.img-contain {
+    width: 150px;
+    height: 150px;
+    margin: 10px;    
+    border-radius: 50%;
+
+}
+
 .labels {
-    position: relative;
-    
+    flex: 1;
+    align-items: center;
 }
 
 .label:hover {
@@ -18,11 +35,8 @@
 }
 
 .labels-div {
-    position: absolute;
-    bottom: 40px;
-    width: 230px;
-    padding: 10px;
-    margin: 0 20px;
+    flex: 1;
+    max-width: 150px;
     background-color: #4aaaa5;
     text-align: center;
     color: #ffffff;
