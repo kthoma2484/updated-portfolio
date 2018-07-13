@@ -1,19 +1,31 @@
-.row {
-    display: flex;
-    margin: 20px;
+body {
+    background-color: rgba(134, 131, 134, 0.5);
+    font-family: 'Satisfy', 'Courgette', 'Damon', 'cursive', sans-serif;
+}
+
+.main-photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.parallax-container {
+    max-height: 350px;
 }
 
 .accordion {
-    padding: 100px;
+
 }
 
 .card {
     background-color: rgba(133, 104, 141, 0.5);
-    margin: 50px 0;
 }
 
 .card-body {
-    background-color: whitesmoke;
+    background-color: rgb(252, 253, 253);
+    padding: 50px 100px;
+    font-family: 'Courgette', 'Damon', 'cursive', sans-serif;
+    font-size: 30px;
 }
 
 #title {
@@ -22,8 +34,8 @@
     text-align: center;
 }
 
-.button {
-
+.collapsed {
+    font-size: 50px;
 }
 
 #about-me-text {

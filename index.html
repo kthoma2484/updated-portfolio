@@ -8,15 +8,24 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Damion|Handlee|Marck+Script|Satisfy" rel="stylesheet">
 </head>
 
 <body>
 
-    <div class="nav-bar">
-        <h1 style="text-align:center">Kimberly K. Thomas</h1>
+    <div class="nav-bar" style="text-align:center">
+        <img class="main-photo" src="assets/images/Kim_beachsunset.jpg">
+        <h1>Kimberly K. Thomas</h1>
     </div>
 
     <div class="accordion" id="accordianExample">
+
+        <div class="parallax-container">
+            <div class="parallax">
+                <img src="./assets/images/san-diego2.png">
+            </div>
+        </div>
+
         <div class="card">
             <div class="card-header" id="headingOne">
                 <h5 class="mb-0" id="title">
@@ -27,26 +36,31 @@
             </div>
             <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                 <div class="card-body" id="about-me-text">
-                    My professional career began in medical graduate education. During that time, I gained invaluable experience in healthcare administration
-                    with exposure to various medical programs. In the years to follow, I explored careers geared towards
-                    gaining knowledge and experience in research, healthcare admin, and project coordination. In 2014, I
-                    relocated to San Diego, CA where I continued working in research. Though I had enjoyed many years of
-                    working in research, I found that my interest in clinical research had become less engaging or fullfilling.
-                    That's when my search for an new goal began and after much consideration of various new career options,
-                    I found that computer coding was of the greatest appeal. The most attractive aspect of programming for
-                    me is the logic, reasoning, and challenge of problem solving. This refreshing journey holds promise of
-                    a fullfilling and challenging career with endless opportunity to grow and learn.
+                    My professional career began in medical graduate education. During that time, I gained invaluable experience in healthcare
+                    administration with exposure to various medical programs. In the years to follow, I explored careers
+                    geared towards gaining knowledge and experience in research, healthcare admin, and project coordination.
+                    In 2014, I relocated to San Diego, CA where I continued working in research. Though I had enjoyed many
+                    years of working in research, I found that my interest in clinical research had become less engaging
+                    or fullfilling. That's when my search for an new goal began and after much consideration of various new
+                    career options, I found that computer coding was of the greatest appeal. The most attractive aspect of
+                    programming for me is the logic, reasoning, and challenge of problem solving. This refreshing journey
+                    holds promise of a fullfilling and challenging career with endless opportunity to grow and learn.
                 </div>
+            </div>
+        </div>
+
+        <div class="parallax-container">
+            <div class="parallax">
+                <img src="./assets/images/Chicago2.jpg">
             </div>
         </div>
 
         <div class="card">
             <div class="card-header" id="headingTwo">
                 <h5 class="mb-0" id="title">
-                    <div class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
-                        aria-controls="collapseTwo">
+                    <div class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         Portfolio
-                </div>
+                    </div>
                 </h5>
             </div>
             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
@@ -56,14 +70,18 @@
             </div>
         </div>
 
+        <div class="parallax-container">
+            <div class="parallax">
+                <img src="./assets/images/london4.jpg">
+            </div>
+        </div>
 
         <div class="card">
             <div class="card-header" id="headingThree">
                 <h5 class="mb-0" id="title">
-                    <div class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
-                        aria-controls="collapseThree">
+                    <div class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         Contact Me
-                </div>
+                    </div>
                 </h5>
             </div>
             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
@@ -88,22 +106,27 @@
                 </div>
             </div>
         </div>
+
+        <div class="parallax-container">
+            <div class="parallax">
+                <img src="./assets/images/arkansas1.jpg">
+            </div>
+        </div>
+
     </div>
 
     <script id="projectTemplate" type="text/x-handlebars-template">
         {{#each myProjects}}
-        <div class="labels">
-            <img class="img-contain" src="{{photo}}" alt="altname">
-            <p class="labels-div">
-                <a href="{{link}}">{{name}}</a>
-            </p>
-        </div>
+            <div class="labels">
+                <img class="img-contain" src="{{photo}}" alt="altname">
+                <p class="labels-div">
+                    <a href="{{link}}">{{name}}</a>
+                </p>
+            </div>
         {{/each}}
     </script>
 
     <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"

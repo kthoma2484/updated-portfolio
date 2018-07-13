@@ -66,9 +66,9 @@ let data = {
         $("#project-container").html(myGeneratedHTML);
     }
 
+    
+
     createHTML(data);
 
-    $('.carousel').carousel();
-
-    
+    $('.parallax').parallax();
 });
