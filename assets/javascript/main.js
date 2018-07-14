@@ -109,7 +109,7 @@ $(function () {
                 }
             },
             "opacity": {
-                "value": 0.20517838682439088,
+                "value": 0.3,
                 "random": true,
                 "anim": {
                     "enable": false,
