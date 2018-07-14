@@ -65,16 +65,20 @@ let data = {
         let myGeneratedHTML = compiledProject(myProjects);
         //console.log(myGeneratedHTML);
         $("#project-container").html(myGeneratedHTML);
+
     }
 
 
     createHTML(data);
 
     $('.parallax').parallax();
+    $('.carousel').carousel({
+    
+    });
 
     /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-    particlesJS.load('particles-js', 'particles.js', function() {
+    particlesJS.load('particles-js', 'assets/javascript/particlesjs-config.json', function() {
         console.log('callback - particles.js config loaded');
     });
-    
+
 });
