@@ -1,11 +1,30 @@
+/* ---- particles.js container ---- */
+
+#particles-js {
+    width: 100%;
+    max-height: 400px;
+    background-color: #585259;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.particles-js-canvas-el {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: cover;
+    z-index: 1;
+}
 
 
-
-.main-header {
+.main-title {
+    z-index: 2;
     font-family: 'Satisfy', 'Courgette', 'Damon', 'cursive', sans-serif;
 }
 
 .main-photo {
+    z-index: 2;
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -15,69 +34,65 @@
     max-height: 350px;
 }
 
-.accordion {
-    
-}
-
 .card {
     background-color: rgba(133, 104, 141, 0.5);
+    max-height: 600px;
 }
 
 .card-body {
     background-color: rgb(252, 253, 253);
-    padding: 50px 100px;
+    padding: 0 50px;
     font-family: 'Courgette', 'Damon', 'cursive', sans-serif;
     font-size: 30px;
+    height: 400px;
+
 }
 
-#title {
+.title {
     padding: 0 20px;
     flex: 1;
     text-align: center;
+    font-family: 'Satisfy', 'Courgette', 'Damon', 'cursive', sans-serif;
 }
 
 .collapsed {
     font-size: 50px;
+
 }
 
 #about-me-text {
     text-align: justify;
 }
 
-#project-container {
+.carousel {
     display: flex;
     flex-wrap: wrap;
     flex: 1;
     max-width: 100%;
-    max-height: 400px;
-    padding: 0;
-    justify-content: center;
 }
 
 .img-contain {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    
 }
 
 .labels {
     flex: 1;
     flex-wrap: wrap;
-    max-width: 200px;
-    margin: 100px;
+    max-width: 300px;
+    max-height: 300px;
+    margin: 10px;
     text-align: center;
 }
 
-.label:hover {
-
-}
-
 .labels-div {
+    display: flex;
     flex: 1;
     max-width: 200px;
-    color: #ffffff;
+    color: rgba(133, 92, 133, 1.0);
     font-size: 18px;
     font-weight: bold;
-    margin: 10px auto;
+    margin: 0;
+    padding: 0;
 }

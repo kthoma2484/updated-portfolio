@@ -14,13 +14,16 @@
 <body>
 
 
-    <div class="main-header" id="particles-js" style="text-align:center">
+    <div class="main-header sticky-top" id="particles-js" style="text-align:center">
         <img class="main-photo" src="assets/images/Kim_beachsunset.jpg">
-        <h1>Kimberly K. Thomas</h1>
+        <h1 class="main-title">Kimberly K. Thomas</h1>
     </div>
 
     <div class="accordion" id="accordianExample">
 
+
+
+        
         <div class="parallax-container">
             <div class="parallax">
                 <img src="./assets/images/san-diego2.png">
@@ -29,7 +32,7 @@
 
         <div class="card">
             <div class="card-header" id="headingOne">
-                <h5 class="mb-0" id="title">
+                <h5 class="mb-0 title">
                     <div class="collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                         About Me
                     </div>
@@ -58,7 +61,7 @@
 
         <div class="card">
             <div class="card-header" id="headingTwo">
-                <h5 class="mb-0" id="title">
+                <h5 class="mb-0 title">
                     <div class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         Portfolio
                     </div>
@@ -66,8 +69,7 @@
             </div>
             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                 <div class="card-body">
-                    <div class="accordion">
-                    <div class="carousel" id="project-container"></div>
+                <div class="carousel" id="project-container"></div>
                </div>
                 </div>
             </div>
@@ -81,7 +83,7 @@
 
         <div class="card">
             <div class="card-header" id="headingThree">
-                <h5 class="mb-0" id="title">
+                <h5 class="mb-0 title">
                     <div class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         Contact Me
                     </div>
@@ -136,7 +138,10 @@
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.js"></script>
     <script src="assets/javascript/handlebars-v4.0.11.js"></script>
-    <script src="assets/javascript/particles.js"></script>
+    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> 
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+    <!-- stats.js lib --> 
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
     <script src="assets/javascript/main.js"></script>
 
 </body>
