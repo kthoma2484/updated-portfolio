@@ -1,5 +1,6 @@
 $(function() {
 
+
 let data = {
     myProjects: [
     {
@@ -56,19 +57,24 @@ let data = {
  console.log(data);
 
     function createHTML(myProjects) {
-        console.log("data passed")
+        //console.log("data passed")
         let projectData = document.getElementById("projectTemplate").innerHTML;
-        console.log(projectData)
+        //console.log(projectData)
         let compiledProject = Handlebars.compile(projectData);
-        console.log(compiledProject(myProjects));
+        //console.log(compiledProject(myProjects));
         let myGeneratedHTML = compiledProject(myProjects);
-        console.log(myGeneratedHTML);
+        //console.log(myGeneratedHTML);
         $("#project-container").html(myGeneratedHTML);
     }
 
-    
 
     createHTML(data);
 
     $('.parallax').parallax();
+
+    /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+    particlesJS.load('particles-js', 'particles.js', function() {
+        console.log('callback - particles.js config loaded');
+    });
+    
 });
