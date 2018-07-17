@@ -34,12 +34,14 @@ canvas {
 }
 
 .h-text {
+    text-shadow: 0.5px 0.5px rgb(193, 105, 65);
     padding-top: 15px;
     font-family: 'Courgette', 'cursive', sans-serif;
     font-size: 20px;
 }
 
 .name {
+    text-shadow: 2px 2px rgb(193, 105, 65);
     font-family: 'Satisfy', 'Courgette', 'Damon', 'cursive', sans-serif;
     font-size: 80px;
     padding: 30px;
