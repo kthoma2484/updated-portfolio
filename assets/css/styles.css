@@ -17,21 +17,54 @@
     z-index: 1;
 }
 
-
-.main-title {
+div {
     z-index: 2;
+}
+
+canvas {
+    z-index: 1;
+}
+
+.underline {
+    width: 0px;
+    opacity: 0;
+    margin: 0.1em auto;
+    border-style: inset;
+    border: 2px solid black;
+}
+
+.h-text {
+    padding-top: 15px;
+    font-family: 'Courgette', 'cursive', sans-serif;
+    font-size: 20px;
+}
+
+.name {
     font-family: 'Satisfy', 'Courgette', 'Damon', 'cursive', sans-serif;
+    font-size: 80px;
+    padding: 30px;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
 }
 
 .main-photo {
-    z-index: 2;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
+    padding: 10px 0;
     border-radius: 50%;
 }
 
+#about-me-text {
+    font-family: 'Courgette', 'Damon', 'cursive', sans-serif;
+    font-size: 30px;
+}
+
 .parallax-container {
-    max-height: 350px;
+    max-height: 400px;
 }
 
 .card {
@@ -40,12 +73,9 @@
 }
 
 .card-body {
-    background-color: rgb(252, 253, 253);
+    background-color: rgb(217, 214, 218);
     padding: 0 50px;
-    font-family: 'Courgette', 'Damon', 'cursive', sans-serif;
-    font-size: 30px;
     height: 400px;
-
 }
 
 .title {
@@ -57,7 +87,10 @@
 
 .collapsed {
     font-size: 50px;
+}
 
+.collapse {
+    max-height: 380px;
 }
 
 #about-me-text {
@@ -66,8 +99,8 @@
 
 .carousel {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    flex: 1;
     max-width: 100%;
 }
 
@@ -77,22 +110,11 @@
     border-radius: 50%;
 }
 
-.labels {
-    flex: 1;
-    flex-wrap: wrap;
-    max-width: 300px;
-    max-height: 300px;
-    margin: 10px;
-    text-align: center;
-}
-
 .labels-div {
-    display: flex;
-    flex: 1;
-    max-width: 200px;
+    max-width: 300px;
     color: rgba(133, 92, 133, 1.0);
     font-size: 18px;
     font-weight: bold;
-    margin: 0;
-    padding: 0;
+    text-align: center;
+    font-family: 'Courgette', 'Damon', 'cursive', sans-serif;
 }
