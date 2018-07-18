@@ -8,6 +8,7 @@ $(function () {
                 altname: "The Word Guess Game",
                 link: "https://kthoma2484.github.io/word-guess-game/",
                 order: "#one!",
+                code: "https://github.com/kthoma2484/word-guess-game",
             },
             {
                 name: "The Psychic Game",
@@ -15,6 +16,7 @@ $(function () {
                 altname: "The Psychic Game",
                 link: "https://kthoma2484.github.io/psychic-game/",
                 order: "#two!",
+                code: "https://github.com/kthoma2484/psychic-game",
             },
             {
                 name: "Crystal Collection Game",
@@ -22,6 +24,7 @@ $(function () {
                 altname: "Crystal Collection Game",
                 link: "https://kthoma2484.github.io/unit-4-game-crystal-crazy/",
                 order: "#three!",
+                code: "https://github.com/kthoma2484/unit-4-game-crystal-crazy",
             },
             {
                 name: "Giftastic - 90's Artists!",
@@ -29,6 +32,7 @@ $(function () {
                 altname: "Giftastics - 90s artists",
                 link: "https://kthoma2484.github.io/giftastic-90sartists/",
                 order: "#four!",
+                code: "https://github.com/kthoma2484/giftastic-90sartists",
             },
             {
                 name: "TMNT Battle Royale",
@@ -36,6 +40,7 @@ $(function () {
                 altname: "TMNT Battle Royale",
                 link: "https://kthoma2484.github.io/unit-4-game-tmnt-battleroyale-game/",
                 order: "#five!",
+                code: "https://github.com/kthoma2484/unit-4-game-tmnt-battleroyale-game",
             },
             {
                 name: "Train Scheduler",
@@ -43,6 +48,7 @@ $(function () {
                 altname: "Train Scheduler",
                 link: "https://kthoma2484.github.io/train-scheduler/",
                 order: "#six!",
+                code: "https://github.com/kthoma2484/train-scheduler",
             },
             {
                 name: "Dessert Crave",
@@ -50,6 +56,15 @@ $(function () {
                 altname: "Dessert Crave",
                 link: "https://erickagithub.github.io/project-1/",
                 order: "#seven!",
+                code: "https://github.com/ErickaGitHub/project-1",
+            },
+            {
+                name: "the Ultimate Winer",
+                photo: "assets/images/wine-photo.jpg",
+                altname: "Wine Trivia",
+                link: "https://kthoma2484.github.io/triviagame/",
+                order: "#eight!",
+                code: "https://github.com/kthoma2484/triviagame",
             }
         ]
     };
@@ -81,7 +96,6 @@ $(function () {
 
     $("#portfolio").on("click", function () {
         $(".carousel-item").trigger("click");
-        $("#portfolio").unbind();
     });
 
     $(".outline").each(function() {

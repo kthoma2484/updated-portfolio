@@ -18,19 +18,19 @@
 
     <div class="main-header sticky-top container" id="particles-js" style="text-align:center">
         <div class="row justify-content-center">
-            <div class="col-sm-2" style="text-align:right">
+            <div class="col-sm-2 header-space">
                 <img class="main-photo" src="assets/images/Kim_beachsunset.jpg">
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-6 header-space">
                 <p class="name">Kimberly K. Thomas</p>
             </div>
-            <div class="col-sm-2 flex-row">
+            <div class="col-sm-2 header-space">
                 <div class="row h-text">A Full Stack Web Developer</div>
-                <div class="row h-text">Email: kthoma16@gmail.com</div>
-                <div class="row h-text">
-                    <a style="color:rgb(193, 105, 65);font-size:50px;" href="https://linkedin.com/in/kimberly-thomas-729a041b" class="fab fa-linkedin"></a>
+                <div class="row h-text">Email: &nbsp; <a href="mailto:kthoma16@gmail.com" style="color:black;" target="_blank">kthoma16@gmail.com</a></div>
+                <div class="row h-text brands">
+                    <a style="color: rgb(193, 105, 65);" href="https://linkedin.com/in/kimberly-thomas-729a041b" target="_blank" class="fab fa-linkedin"></a>
                     &nbsp; &nbsp;
-                    <a style="color:rgb(193, 105, 65);font-size:50px;" href="https://github.com/kthoma2484" class="fab fa-github"></a>
+                    <a style="color: rgb(193, 105, 65);" href="https://github.com/kthoma2484" target="_blank" class="fab fa-github"></a>
                 </div>
             </div>
         </div>
@@ -88,7 +88,7 @@
                 </h5>
             </div>
             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                <div class="card-body">
+                <div class="card-body" id="projects">
                     <div class="carousel" id="project-container"></div>
                 </div>
             </div>
@@ -111,24 +111,16 @@
                 </h5>
             </div>
             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                <div class="card-body">
-                    <form id="contact-form">
-                        <ul>
-                            <li>
-                                <label for="name">Name</label>
-                                <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-                            </li>
-                            <li>
-                                <label for="email">Email</label>
-                                <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-                            </li>
-                            <li>
-                                <label for="message">Message</label>
-                                <textarea id="message" name="message" required="required"></textarea>
-                            </li>
-                        </ul>
-                        <input type="submit">
-                    </form>
+                <div class="card-body row">
+                            <div class="row h-text">
+                                Email: &nbsp; <a href="mailto:kthoma16@gmail.com" target="_blank">kthoma16@gmail.com</a>
+                            </div>
+                            <div class="row h-text">
+                                LinkedIn: &nbsp;<a href="https://linkedin.com/in/kimberly-thomas-729a041b" target="_blank"> https://linkedin.com/in/kimberly-thomas-729a041b</a>
+                            </div>
+                            <div class="row h-text">
+                                Github: &nbsp;<a href="https://github.com/kthoma2484" target="_blank"> https://github.com/kthoma2484</a>
+                            </div>
                 </div>
             </div>
         </div>
@@ -147,7 +139,9 @@
         <div class="labels carousel-item" href="{{order}}">
             <img class="img-contain" src="{{photo}}" alt="altname">
             <p class="labels-div">
-                <a href="{{link}}">{{name}}</a>
+                <a href="{{link}}" target="_blank">{{name}}</a> 
+                <br>
+                <a href="{{code}}" target="_blank" style="text-decoration:underline"><i>code link</i></a>
             </p>
         </div>
         {{/each}}
