@@ -57,8 +57,8 @@ canvas {
 .main-photo {
     width: 200px;
     height: 200px;
-    padding: 10px 0;
     border-radius: 50%;
+    margin-top: 20px;
     text-align: right;
 }
 
@@ -139,7 +139,7 @@ canvas {
 }
 
 /* for screens 1020 or less */
-@media (max-width: 1024px) {
+@media (max-width: 1020px) {
     #particles-js {
         width: 100%;
         padding: 0;
@@ -176,7 +176,7 @@ canvas {
     }
 }
 
-/* for screens 1050 or less */
+/* for screens 450 or less */
 @media (max-width: 450px) {
     .name {
         font-size: 30px;
@@ -218,8 +218,8 @@ canvas {
     }
 
     .img-contain {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         border-radius: 50%;
     }
 
