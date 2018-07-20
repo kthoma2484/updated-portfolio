@@ -9,6 +9,7 @@ $(function () {
                 link: "https://kthoma2484.github.io/word-guess-game/",
                 order: "#one!",
                 code: "https://github.com/kthoma2484/word-guess-game",
+                screenshot:"assets/images/hangman-screen.png",
             },
             {
                 name: "The Psychic Game",
@@ -17,6 +18,7 @@ $(function () {
                 link: "https://kthoma2484.github.io/psychic-game/",
                 order: "#two!",
                 code: "https://github.com/kthoma2484/psychic-game",
+                screenshot:"assets/images/psychic-screen.png",
             },
             {
                 name: "Crystal Collection Game",
@@ -25,6 +27,7 @@ $(function () {
                 link: "https://kthoma2484.github.io/unit-4-game-crystal-crazy/",
                 order: "#three!",
                 code: "https://github.com/kthoma2484/unit-4-game-crystal-crazy",
+                screenshot:"assets/images/crystal-screen.png",
             },
             {
                 name: "Giftastic - 90's Artists!",
@@ -33,6 +36,7 @@ $(function () {
                 link: "https://kthoma2484.github.io/giftastic-90sartists/",
                 order: "#four!",
                 code: "https://github.com/kthoma2484/giftastic-90sartists",
+                screenshot:"assets/images/gifs-screen.png",
             },
             {
                 name: "TMNT Battle Royale",
@@ -41,6 +45,7 @@ $(function () {
                 link: "https://kthoma2484.github.io/unit-4-game-tmnt-battleroyale-game/",
                 order: "#five!",
                 code: "https://github.com/kthoma2484/unit-4-game-tmnt-battleroyale-game",
+                screenshot:"assets/images/tmnt-screen.png",
             },
             {
                 name: "Train Scheduler",
@@ -49,6 +54,7 @@ $(function () {
                 link: "https://kthoma2484.github.io/train-scheduler/",
                 order: "#six!",
                 code: "https://github.com/kthoma2484/train-scheduler",
+                screenshot:"assets/images/train-screen.png",
             },
             {
                 name: "Dessert Crave",
@@ -57,6 +63,7 @@ $(function () {
                 link: "https://erickagithub.github.io/project-1/",
                 order: "#seven!",
                 code: "https://github.com/ErickaGitHub/project-1",
+                screenshot:"assets/images/dessert1-screen.png",
             },
             {
                 name: "the Ultimate Winer",
@@ -65,6 +72,7 @@ $(function () {
                 link: "https://kthoma2484.github.io/triviagame/",
                 order: "#eight!",
                 code: "https://github.com/kthoma2484/triviagame",
+                screenshot:"assets/images/winer-screen.jpg",
             }
         ]
     };
