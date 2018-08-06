@@ -73,6 +73,15 @@ $(function () {
                 order: "#eight!",
                 code: "https://github.com/kthoma2484/triviagame",
                 screenshot:"assets/images/winer-screen.jpg",
+            },
+            {
+                name: "Mock Storefront",
+                photo: "assets/images/Mock-Storefront.png",
+                altname: "Mock Storefront",
+                link: "https://github.com/kthoma2484/mock-amazon-db",
+                order: "#nine!",
+                code: "https://github.com/kthoma2484/mock-amazon-db",
+                screenshot:"https://drive.google.com/file/d/15r0sO9ziVlrUomaWE-pH6kJCoKjpvcRT/view",
             }
         ]
     };
