@@ -67,6 +67,11 @@ canvas {
     align-content: center;
 }
 
+.places {
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
 #about-me-text {
     font-family: 'Courgette', 'Damon', 'cursive', sans-serif;
     font-size: 30px;
