@@ -82,6 +82,15 @@ $(function () {
                 order: "#nine!",
                 code: "https://github.com/kthoma2484/mock-amazon-db",
                 screenshot:"https://drive.google.com/file/d/15r0sO9ziVlrUomaWE-pH6kJCoKjpvcRT/view",
+            },
+            {
+                name: "Custom Cocktail Maker!",
+                photo: "assets/images/drinks.jpg",
+                altname: "Custom Cocktail Maker",
+                link: "https://rocky-fjord-87794.herokuapp.com",
+                order: "#ten!",
+                code: "https://github.com/kthoma2484/custom-cocktails",
+                screenshot:"assets/images/custom-cocktails-screen.png",
             }
         ]
     };
