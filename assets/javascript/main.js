@@ -91,6 +91,15 @@ $(function () {
                 order: "#ten!",
                 code: "https://github.com/kthoma2484/custom-cocktails",
                 screenshot:"assets/images/custom-cocktails-screen.png",
+            },
+            {
+                name: "Da-Ta-Baby",
+                photo: "assets/images/DaTaBaby.png",
+                altname: "Da-Ta-Baby: Name Finder App",
+                link: "https://lit-harbor-88933.herokuapp.com/",
+                order: "#eleven!",
+                code: "https://github.com/kthoma2484/project2-t3",
+                screenshot:"assets/images/DaTaBaby-screen.png",
             }
         ]
     };
