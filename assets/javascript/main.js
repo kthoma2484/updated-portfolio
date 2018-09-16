@@ -60,9 +60,9 @@ $(function () {
                 name: "Dessert Crave",
                 photo: "assets/images/dessertssign.jpg",
                 altname: "Dessert Crave",
-                link: "https://erickagithub.github.io/project-1/",
+                link: "https://kthoma2484.github.io/project1-dessert-crave/",
                 order: "#seven!",
-                code: "https://github.com/ErickaGitHub/project-1",
+                code: "https://github.com/kthoma2484/project1-dessert-crave",
                 screenshot:"assets/images/dessert1-screen.png",
             },
             {
