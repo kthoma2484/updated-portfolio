@@ -105,6 +105,7 @@ canvas {
 .card-body {
     background-color: rgb(251, 247, 252);
     height: 400px;
+    overflow: auto;
 }
 
 .title {
@@ -282,9 +283,17 @@ form {
         text-align: center;
         font-family: 'Courgette', 'Damon', 'cursive', sans-serif;
     }
+
+    ul {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        column-width: 100%;
+    }
     
     form {
         font-size: 10px;
+        overflow: auto;
     }
 
 }
