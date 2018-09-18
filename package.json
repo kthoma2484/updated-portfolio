@@ -1,0 +1,24 @@
+{
+  "name": "updated-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kthoma2484/updated-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kthoma2484/updated-portfolio/issues"
+  },
+  "homepage": "https://github.com/kthoma2484/updated-portfolio#readme"
+}

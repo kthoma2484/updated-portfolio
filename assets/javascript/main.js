@@ -1,6 +1,5 @@
 $(function () {
 
-
     let data = {
         myProjects: [{
                 name: "The Word Guess Game",
@@ -153,6 +152,46 @@ $(function () {
             });
         });
     });
+
+    $(".submit").on("click", function(event) {
+        event.preventDefault();
+
+        require("dotenv").config();
+
+        let emailer = $("#emailName").val().trim();
+        let address = $("#emailInput").val().trim();
+        let text = $("#emailText").val().trim();
+        //window.open(`mailto:kthoma16@gmail.com?subject=&body=${text}`);
+
+        $.ajax({
+            type: "POST",
+            url: "https://mandrillapp.com/api/1.0/messages/send.json",
+            data: {
+              'key': 'process.env.apiKey',
+              'message': {
+                'from_email': address,
+                'to': 
+                    {
+                      'email': 'kthoma16@gmail.com',
+                      'name': 'Kimberly Thomas',
+                      'type': 'to'
+                    },
+                'autotext': 'true',
+                'subject': 'Regarding your portfolio profile from ' + emailer,
+                'html': text
+              }
+            }
+           }).done(function(response) {
+             console.log(response); // if you're into that sorta thing
+             $("form").addClass("hidden");
+             $(".email").append("<p>You're email has been submitted!</p>");
+             
+           });
+
+        
+    })
+
+
 
     /* ------particle.js code-----*/
 

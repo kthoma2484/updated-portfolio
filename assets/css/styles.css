@@ -30,7 +30,11 @@ canvas {
     width: 100%;
     margin: 0;
 } 
-  
+
+.outline:hover {
+    cursor: pointer;
+}
+
 .underline {
     width: 0px;
     opacity: 0;
@@ -100,7 +104,7 @@ canvas {
 
 .card-body {
     background-color: rgb(251, 247, 252);
-    height: 200px;
+    height: 400px;
 }
 
 .title {
@@ -115,7 +119,7 @@ canvas {
 }
 
 .collapse {
-    max-height: 380px;
+    max-height: 400px;
 }
 
 #about-me-text {
@@ -158,6 +162,16 @@ ul {
     font-family: 'Courgette', 'Damon', 'cursive', sans-serif;
 }
 
+form {
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Courgette', 'Damon', 'cursive', sans-serif;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
 /* for screens 1020 or less */
 @media (max-width: 1020px) {
     #particles-js {
@@ -192,7 +206,12 @@ ul {
     }
 
     .parallax-container {
-        max-height: 200px;
+        height: 200px;
+    }
+
+    .img-parallax {
+        height: 400px;
+        width: 200px;
     }
 }
 
@@ -237,7 +256,12 @@ ul {
     }
 
     .parallax-container {
-        max-height: 100px;
+        max-height: 75px;
+    }
+    
+    .img-parallax {
+        height: 200px;
+        width: 100px;
     }
 
     .collapsed {
@@ -259,4 +283,8 @@ ul {
         font-family: 'Courgette', 'Damon', 'cursive', sans-serif;
     }
     
+    form {
+        font-size: 10px;
+    }
+
 }
