@@ -99,6 +99,15 @@ $(function () {
                 order: "#eleven!",
                 code: "https://github.com/kthoma2484/project2-t3",
                 screenshot:"assets/images/DaTaBaby-screen.png",
+            },
+            {
+                name: "News Scraper",
+                photo: "assets/images/news-scraper-screen.png",
+                altname: "News Scraper",
+                link: "https://whispering-lake-37396.herokuapp.com/",
+                order: "#twelve!",
+                code: "https://github.com/kthoma2484/news-scraper",
+                screenshot:"assets/images/news-scraper-screen.png",
             }
         ]
     };
