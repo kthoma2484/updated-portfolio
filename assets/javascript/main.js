@@ -108,6 +108,24 @@ $(function () {
                 order: "#twelve!",
                 code: "https://github.com/kthoma2484/news-scraper",
                 screenshot:"assets/images/news-scraper-screen.png",
+            },
+            {
+                name: "Terminal - Word Construct Game",
+                photo: "assets/images/Terminal-WCG.png",
+                altname: "Terminal-WCG",
+                link: "https://github.com/kthoma2484/constructor-word-game",
+                order: "#thirteen!",
+                code: "https://github.com/kthoma2484/constructor-word-game",
+                screenshot:"assets/images/Terminal-WCG.png",
+            },
+            {
+                name: "Trivia Challenger",
+                photo: "assets/images/TriviaChallenger.png",
+                altname: "Trivia Challenger",
+                link: "https://fast-dusk-26414.herokuapp.com/gameplay",
+                order: "#thirteen!",
+                code: "https://github.com/kthoma2484/project-3",
+                screenshot:"assets/images/TriviaChallenger-screen.png",
             }
         ]
     };
