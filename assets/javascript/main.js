@@ -122,7 +122,7 @@ $(function () {
                 name: "Trivia Challenger",
                 photo: "assets/images/TriviaChallenger.png",
                 altname: "Trivia Challenger",
-                link: "https://fast-dusk-26414.herokuapp.com/gameplay",
+                link: "https://fast-dusk-26414.herokuapp.com/",
                 order: "#thirteen!",
                 code: "https://github.com/kthoma2484/project-3",
                 screenshot:"assets/images/TriviaChallenger-screen.png",
