@@ -1,8 +1,9 @@
 /* ---- particles.js container ---- */
 
 #particles-js {
+    display: flex;
     width: 100%;
-    max-height: 400px;
+    max-height: 200px;
     background-color: #585259;
     background-image: url("");
     background-repeat: no-repeat;
@@ -21,6 +22,10 @@ div {
     z-index: 2;
 }
 
+.row {
+    width: 100%;
+}
+
 canvas {
     z-index: 1;
 }
@@ -30,9 +35,14 @@ canvas {
     width: 100%;
     margin: 0;
 } 
+/*-------------------------------------------------------------------*/
+
+.outline {
+    font-size: 60px;
+}
 
 .outline:hover {
-    cursor: pointer;
+    cursor: pointer !important;
 }
 
 .underline {
@@ -43,19 +53,38 @@ canvas {
     border: 2px solid black;
 }
 
+.top-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-space {
+    display: flex;
+    margin: 10px 15px;
+    flex-direction: row;
+} 
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+}
+
 .h-text {
     text-shadow: 0.5px 0.5px rgb(193, 105, 65);
-    padding-top: 15px;
+    padding-top: 5px;
     font-family: 'Courgette', 'cursive', sans-serif;
     font-size: 20px;
     justify-content: center;
+    display: flex;
 }
 
 .name {
+    display: flex;
     text-shadow: 2px 2px rgb(193, 105, 65);
     font-family: 'Satisfy', 'Courgette', 'Damon', 'cursive', sans-serif;
-    font-size: 80px;
-    padding: 30px;
+    font-size: 60px;
+    margin: 50px;
+    justify-content: center;
 }
 
 .container {
@@ -65,11 +94,11 @@ canvas {
 }
 
 .main-photo {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    margin-top: 20px;
-    text-align: right;
+    margin: 10px auto;
+    text-align: center;
 }
 
 .brands {
@@ -87,14 +116,9 @@ canvas {
     font-size: 30px;
 }
 
-#project-container {
-    height: 400px;
-}
-
 .parallax-container {
     max-height: 300px;
 }
-
 
 .card {
     background-color: rgba(133, 104, 141, 0.5);
@@ -115,10 +139,6 @@ canvas {
     font-family: 'Satisfy', 'Courgette', 'Damon', 'cursive', sans-serif;
 }
 
-.collapsed {
-    font-size: 50px;
-}
-
 .collapse {
     max-height: 400px;
 }
@@ -136,16 +156,13 @@ ul {
     column-width: 33%;
 }
 
-
-#projects {
-    height: 800px;
-}
-
 .carousel {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     max-width: 100%;
+    max-height: 360px;
+    overflow: hidden;
 }
 
 .img-contain {
@@ -173,23 +190,28 @@ form {
     visibility: hidden;
 }
 
-/* for screens 1020 or less */
-@media (max-width: 1020px) {
+/* for screens 1024 or less */
+@media (max-width: 1024px) {
     #particles-js {
         width: 100%;
+        max-height: 150px;
+        overflow: scroll;
         padding: 0;
+    }    
+
+    .outline {
+        font-size: 50px;
     }
     
     .name {
         font-size: 50px;
-        padding: 10px;
+        margin: 30px 10px;
     }
 
     .main-photo {
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
-        text-align: center;
+        width: 125px;
+        height: 125px;
+        margin: 15px auto;
     }
 
     .header-space {
@@ -201,52 +223,149 @@ form {
     }
 
     .h-text {
-        padding-top: 10px;
         font-size: 16px;
-        justify-content: center;
+        padding: 5px;
+        color: rgb(193, 105, 65);
+        text-shadow: none;
     }
-
+    
     .parallax-container {
         height: 200px;
     }
 
     .img-parallax {
         height: 400px;
-        width: 200px;
+    }
+
+    .card {
+        max-height: 500px;
+    }
+
+    .card-body {
+        max-height: 300px;
+    }
+
+    .carousel {
+        max-height: 260px;
+    }
+
+    .img-contain {
+        width: 150px;
+        height: 150px;
+    }
+
+    .card-header {
+        max-height: 100px;
+    }
+
+    .labels-div {
+        max-width: 200px;
+        font-size: 16px;
     }
 }
 
-/* for screens 450 or less */
-@media (max-width: 450px) {
+
+/* for screens 780 or less */
+@media (max-width: 780px) {
+    #particles-js {
+        width: 100%;
+        max-height: 100px;
+        overflow: scroll;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .outline {
+        font-size: 30px;
+    }
+    
     .name {
         font-size: 30px;
-        padding: 5px;
+        margin: 20px 10px;
+    }
+
+    .main-photo {
+        width: 75px;
+        height: 75px;
+    }
+
+    .header-space {
+        margin: 4px;
+    }
+
+    .h-text,
+    .row,
+    .brands {
+        font-size: 14px;
+        margin: 2px;
+    }
+
+    .title {
+        padding: 0 10px;
+    }
+
+    .parallax-container {
+        max-height: 75px;
+    }
+
+    .labels-div {
+        font-size: 16px;
+    }
+
+    ul {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        column-width: 100%;
+    }
+    
+    form {
+        font-size: 15px;
+        overflow: auto;
+    }
+}
+
+/* for screens 520 or less */
+@media (max-width: 500px) {
+    #particles-js {
+        display: flex;
+        max-height: 80px
+    }
+    
+    .outline {
+        font-size: 16px;
+    }
+    
+    .underline {
+        width: none;
+        opacity: none;
+        margin: none;
+        border-style: none;
+        border: none;
+    }
+
+    .name {
+        font-size: 16px;
+        margin: 5px 5px;
     }
 
     .main-photo {
         width: 50px;
         height: 50px;
-        border-radius: 50%;
-        text-align: left;
+        margin: 10px;
     }
 
     .header-space {
-        margin: 2px;
-    }
-
-    .name {
-        font-size: 20px;
-        margin: 0;
-        padding: 0;
+        margin: 2px 10px;
+        flex-direction: column;
     }
 
     .h-text,
     .row,
     .brands {
         padding: 0;
-        font-size: 12px;
-        justify-content: center;
-        margin: 0;
+        margin: 1px;
+        font-size: 10px;
     }
 
     .title {
@@ -261,38 +380,15 @@ form {
     }
     
     .img-parallax {
-        height: 200px;
-        width: 100px;
-    }
-
-    .collapsed {
-        font-size: 20px;
-    }
-
-    .img-contain {
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
+        height: 100px;
+        width: 75px;
     }
 
     .labels-div {
-        max-width: 200px;
-        color: rgba(133, 92, 133, 1.0);
-        font-size: 14px;
-        font-weight: normal;
-        text-align: center;
-        font-family: 'Courgette', 'Damon', 'cursive', sans-serif;
-    }
-
-    ul {
-        -webkit-column-count: 1;
-        -moz-column-count: 1;
-        column-count: 1;
-        column-width: 100%;
-    }
-    
+        font-size: 12px;
+    }   
     form {
-        font-size: 10px;
+        font-size: 12px;
         overflow: auto;
     }
 
