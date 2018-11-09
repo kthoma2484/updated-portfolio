@@ -227,10 +227,10 @@ $(function () {
     particlesJS("particles-js", {
         "particles": {
             "number": {
-                "value": 24,
+                "value": 20,
                 "density": {
                     "enable": true,
-                    "value_area": 800
+                    "value_area": 200
                 }
             },
             "color": {
@@ -252,22 +252,23 @@ $(function () {
                 }
             },
             "opacity": {
-                "value": 0.3,
+                "value": 0.7,
                 "random": true,
                 "anim": {
                     "enable": false,
-                    "speed": 1,
-                    "opacity_min": 0.1,
+                    "speed": 2,
+                    "opacity_min": 0.6,
                     "sync": false
                 }
             },
             "size": {
-                "value": 98.64345520403408,
+                "value": 75.64345520403408,
                 "random": true,
                 "anim": {
                     "enable": true,
                     "speed": 10,
-                    "size_min": 40,
+                    "size_min": 10,
+                    "size_max": 40,
                     "sync": false
                 }
             },

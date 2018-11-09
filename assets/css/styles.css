@@ -326,8 +326,9 @@ form {
 /* for screens 520 or less */
 @media (max-width: 500px) {
     #particles-js {
-        display: flex;
-        max-height: 80px
+        max-height: 80px;
+        background-color: #585259;
+        background-image: none;
     }
     
     .outline {
