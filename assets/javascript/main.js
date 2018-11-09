@@ -227,10 +227,10 @@ $(function () {
     particlesJS("particles-js", {
         "particles": {
             "number": {
-                "value": 20,
+                "value": 15,
                 "density": {
                     "enable": true,
-                    "value_area": 200
+                    "value_area": 100
                 }
             },
             "color": {
@@ -252,12 +252,12 @@ $(function () {
                 }
             },
             "opacity": {
-                "value": 0.7,
+                "value": 0.9,
                 "random": true,
                 "anim": {
                     "enable": false,
                     "speed": 2,
-                    "opacity_min": 0.6,
+                    "opacity_min": 0.8,
                     "sync": false
                 }
             },
