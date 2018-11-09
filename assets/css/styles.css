@@ -20,6 +20,7 @@
 
 div {
     z-index: 2;
+    cursor: default;
 }
 
 .row {
@@ -39,10 +40,7 @@ canvas {
 
 .outline {
     font-size: 60px;
-}
-
-.outline:hover {
-    cursor: pointer !important;
+    cursor: pointer;
 }
 
 .underline {
@@ -150,10 +148,10 @@ canvas {
 }
 
 ul {
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
-    column-width: 33%;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    column-width: 50%;
 }
 
 .carousel {
