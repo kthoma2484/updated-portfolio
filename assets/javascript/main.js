@@ -155,7 +155,7 @@ $(function () {
         dist: -100,
     });
 
-    $("#portfolio").on("click touch", function () {
+    $("#portfolio").on("click", function () {
         $(".carousel-item").trigger("click");
     });
 
@@ -180,7 +180,7 @@ $(function () {
         });
     });
 
-    $(".submit").on("click touch", function(event) {
+    $(".submit").on("click", function(event) {
         event.preventDefault();
         let text = $("#emailText").val().trim();
         //let address = $("#emailInput").val().trim();
